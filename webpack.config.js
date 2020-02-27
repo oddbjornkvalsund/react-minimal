@@ -18,7 +18,8 @@ module.exports = {
     new HtmlWebpackPlugin({
       title: pkg.name,
       description: pkg.description,
-      template: './src/assets/index.html'
+      template: './src/assets/index.html',
+      favicon: './src/assets/favicon.ico',
     })
   ],
   devtool: 'source-map',

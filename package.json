@@ -1,14 +1,13 @@
 {
-  "name": "nimble-people",
-  "description": "Nimble People",
-  "version": "1.0.0",
+  "name": "react-minimal",
+  "description": "Lightweight starter kit for React.",
+  "version": "1.2.0",
   "main": "index.js",
   "author": "Salvatore Laisa <moebiusmania@gmail.com>, Oddbjørn Kvalsund <oddbjorn.kvalsund@gmail.com>",
   "license": "MIT",
   "scripts": {
     "start": "webpack-dev-server --hot",
-    "build": "NODE_ENV=production webpack",
-    "build:deploy": "npm run build && npm run deploy"
+    "build": "NODE_ENV=production webpack"
   },
   "dependencies": {
     "react": "16.13.0",

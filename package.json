@@ -1,20 +1,16 @@
 {
-  "name": "react-minimal",
-  "description": "Lightweight starter kit for React.",
-  "version": "1.2.0",
+  "name": "nimble-people",
+  "description": "Nimble People",
+  "version": "1.0.0",
   "main": "index.js",
-  "homepage": "https://github.com/moebiusmania/react-minimal",
-  "repository": "git@github.com:moebiusmania/react-minimal.git",
-  "author": "Salvatore Laisa <moebiusmania@gmail.com>",
+  "author": "Salvatore Laisa <moebiusmania@gmail.com>, Oddbjørn Kvalsund <oddbjorn.kvalsund@gmail.com>",
   "license": "MIT",
   "scripts": {
     "start": "webpack-dev-server --hot",
     "build": "NODE_ENV=production webpack",
-    "deploy": "gh-pages -d ./dist",
     "build:deploy": "npm run build && npm run deploy"
   },
   "dependencies": {
-    "normalize.css": "8.0.1",
     "react": "16.10.2",
     "react-dom": "16.10.2"
   },
@@ -24,15 +20,9 @@
     "@babel/preset-react": "7.6.3",
     "babel-loader": "8.0.6",
     "css-loader": "3.2.0",
-    "gh-pages": "2.1.1",
     "html-webpack-plugin": "3.2.0",
-    "node-sass": "4.12.0",
-    "sass-loader": "8.0.0",
-    "style-loader": "1.0.0",
     "webpack": "4.41.2",
     "webpack-cli": "3.3.9",
-    "webpack-dev-server": "3.8.2",
-    "webpack-notifier": "1.8.0",
-    "webpack-pwa-manifest": "4.1.1"
+    "webpack-dev-server": "3.8.2"
   }
 }
